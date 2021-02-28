@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import AboutUs from "./components/AboutUs";
 function App() {
   return (
    <>
@@ -19,7 +20,7 @@ function App() {
           }  
           },
           shape: {
-            type: "ci",
+            type: "start",
             stroke: {
               width: 6,
               color: "#f9ab00"
@@ -30,6 +31,7 @@ function App() {
    />
    <Navbar/>
    <Header/>
+   <AboutUs/>
     </>
   );
 }
